@@ -27,4 +27,4 @@ My research focuses on time series forecasting, smart healthcare, and developing
 [//]: # (Link to your social media connections, too. This theme is set up to use [Font Awesome icons]&#40;http://fortawesome.github.io/Font-Awesome/&#41; and [Academicons]&#40;https://jpswalsh.github.io/academicons/&#41;, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.)
 Currently, I collaborate closely with Mr. [Yaohui Huang](https://scholar.google.com/citations?user=cl5HYUEAAAAJ&hl=en) and Prof. [Xiufeng Liu](https://scholar.google.com/citations?user=pbf7EH4AAAAJ&hl=en).
 
-'I am actively searching for a Ph.D. program. Please feel free to drop me an email if you are interested!'
+`I am actively searching for a Ph.D. program. Please feel free to drop me an email if you are interested!`
