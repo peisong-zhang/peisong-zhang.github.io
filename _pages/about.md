@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='#'>Master Student</a> with a focus on Trustworthy Intelligence in Medicine.
 
