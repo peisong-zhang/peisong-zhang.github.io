@@ -42,4 +42,5 @@ Starting January 2026, I will be joining the [CogAI4Sci Lab](https://www.cogai4s
  as a Ph.D. student, supervised by Prof. Dianbo Liu and co-supervised by [Prof. Roger Foo](https://www.foo-lab.sg/roger-foo), where I will work on self-improving AI for medicine—developing adaptive learning systems that continuously refine their reasoning and decision-making from clinical experience.
 
 `I am actively looking for **two research interns** who are passionate about *causal treatment outcome estimation for healthcare*.  
-If you are interested in working on **causal representation learning**, **time-series modeling**, or **AI for medical decision support**, please feel free to drop me an email!`
+
+[//]: # (If you are interested in working on **causal representation learning**, **time-series modeling**, or **AI for medical decision support**, please feel free to drop me an email!`)
