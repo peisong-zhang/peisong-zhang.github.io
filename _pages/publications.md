@@ -9,6 +9,24 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 
+{% if site.scholar_userid %}
+{% assign scholar_id = site.scholar_userid | remove: 'user=' %}
+<div class="d-flex flex-wrap align-items-center mb-4">
+  <a class="btn btn-sm z-depth-0 mr-2" href="https://scholar.google.com/citations?user={{ scholar_id }}" target="_blank" rel="noopener">
+    <i class="ai ai-google-scholar"></i> Google Scholar
+  </a>
+  {% if site.data.google_scholar.citations %}
+    <span class="mr-2"><strong>Citations:</strong> {{ site.data.google_scholar.citations }}</span>
+  {% endif %}
+  {% if site.data.google_scholar.h_index %}
+    <span class="mr-2"><strong>h-index:</strong> {{ site.data.google_scholar.h_index }}</span>
+  {% endif %}
+  {% if site.data.google_scholar.i10_index %}
+    <span class="mr-2"><strong>i10-index:</strong> {{ site.data.google_scholar.i10_index }}</span>
+  {% endif %}
+</div>
+{% endif %}
+
 {% bibliography -f {{ site.scholar.bibliography }} %}
 
 </div>

@@ -7,15 +7,16 @@
             {%- if site.whatsapp_number -%}
             <a href="https://wa.me/{{ site.whatsapp_number }}" title="whatsapp"><i class="fab fa-whatsapp"></i></a>
             {% endif %}
-            {%- if site.orcid_id -%}
-            <a href="https://orcid.org/{{ site.orcid_id }}" title="ORCID"><i class="ai ai-orcid"></i></a>
-            {% endif %}
-            {%- if site.scholar_userid -%}
-            <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-            {% endif %}
-            {%- if site.semanticscholar_id -%}
-            <a href="https://www.semanticscholar.org/author/{{ site.semanticscholar_id }}" title="Semantic Scholar"><i class="ai ai-semantic-scholar"></i></a>
-            {% endif %}
+	            {%- if site.orcid_id -%}
+	            <a href="https://orcid.org/{{ site.orcid_id }}" title="ORCID"><i class="ai ai-orcid"></i></a>
+	            {% endif %}
+	            {%- if site.scholar_userid -%}
+	            {%- assign scholar_id = site.scholar_userid | remove: 'user=' -%}
+	            <a href="https://scholar.google.com/citations?user={{ scholar_id }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+	            {% endif %}
+	            {%- if site.semanticscholar_id -%}
+	            <a href="https://www.semanticscholar.org/author/{{ site.semanticscholar_id }}" title="Semantic Scholar"><i class="ai ai-semantic-scholar"></i></a>
+	            {% endif %}
             {%- if site.publons_id -%}
             <a href="https://publons.com/a/{{ site.publons_id }}/" title="Publons"><i class="ai ai-publons"></i></a>
             {% endif %}
