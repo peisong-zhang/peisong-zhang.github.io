@@ -20,24 +20,16 @@ begin
     !repo.fork && !repo.private && repo.name != 'peisong-zhang.github.io'
   end
 
-  # 提取需要的信息
+  # 提取仓库名（格式：用户名/仓库名）
   github_repos = repos.first(10).map do |repo|
-    {
-      name: repo.name,
-      description: repo.description || 'No description available',
-      html_url: repo.html_url,
-      language: repo.language || 'Unknown',
-      stargazers_count: repo.stargazers_count,
-      forks_count: repo.forks_count,
-      updated_at: repo.updated_at.strftime('%Y-%m-%d'),
-      topics: repo.topics || []
-    }
+    "peisong-zhang/#{repo.name}"
   end
 
-  # 保存到 _data/repositories.yml
+  # 保存到 _data/repositories.yml（使用字符串键避免 Ruby Symbol 问题）
   data = {
-    github_repos: github_repos,
-    last_updated: Time.now.strftime('%Y-%m-%d %H:%M:%S')
+    'github_users' => ['peisong-zhang'],
+    'github_repos' => github_repos,
+    'last_updated' => Time.now.strftime('%Y-%m-%d %H:%M:%S')
   }
 
   File.write('_data/repositories.yml', data.to_yaml)
