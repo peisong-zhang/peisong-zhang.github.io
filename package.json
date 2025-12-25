@@ -1,0 +1,1 @@
+{"name":"peisong-zhang.github.io","private":true,"scripts":{"dev":"docker compose -f docker-local.yml up --build || docker-compose -f docker-local.yml up --build","dev:hub":"docker compose up || docker-compose up"}}
