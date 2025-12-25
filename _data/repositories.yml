@@ -1,5 +1,19 @@
-github_users:
-  - peisong-zhang
-
-github_repos:
-  - peisong-zhang/peisong-zhang.github.io
+---
+:github_repos:
+- :name: Human-AI-comparison
+  :description: No description available
+  :html_url: https://github.com/peisong-zhang/Human-AI-comparison
+  :language: Python
+  :stargazers_count: 0
+  :forks_count: 0
+  :updated_at: '2025-12-22'
+  :topics: []
+- :name: CausalInference-course-work
+  :description: No description available
+  :html_url: https://github.com/peisong-zhang/CausalInference-course-work
+  :language: Jupyter Notebook
+  :stargazers_count: 0
+  :forks_count: 0
+  :updated_at: '2024-10-13'
+  :topics: []
+:last_updated: '2025-12-26 01:20:02'

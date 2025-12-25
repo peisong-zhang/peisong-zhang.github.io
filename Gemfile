@@ -17,9 +17,10 @@ group :jekyll_plugins do
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-    gem 'mini_racer' unless RUBY_PLATFORM.match?(/aarch64-linux/)
+    gem 'mini_racer' unless RUBY_PLATFORM.match?(/aarch64-linux|arm64-darwin/)
     gem 'unicode_utils'
     gem 'webrick'
+    gem 'octokit', '~> 4.0'
 end
 group :other_plugins do
     gem 'feedjira'
