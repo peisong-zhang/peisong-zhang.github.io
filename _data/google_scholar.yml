@@ -1,0 +1,6 @@
+# Optional Google Scholar metrics shown on the Publications page.
+# Fill these values from your public Google Scholar profile.
+citations:
+h_index:
+i10_index:
+updated:
