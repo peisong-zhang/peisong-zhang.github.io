@@ -2,7 +2,9 @@ github_users:
   - peisong-zhang
 
 github_repos:
-  - peisong-zhang/Human-AI-comparison
   - peisong-zhang/CausalInference-course-work
+  - peisong-zhang/COEOT
+  - peisong-zhang/Human-AI-comparison
+  - peisong-zhang/peisong-zhang.github.io
 
-last_updated: '2025-12-26'
+last_updated: '2026-06-24'

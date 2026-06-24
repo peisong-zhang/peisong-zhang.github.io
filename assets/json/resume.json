@@ -4,7 +4,6 @@
     "label": "Postgraduate",
     "image": "",
     "email": "pencil007123@gmail.com",
-    "phone": "(+86) 18359820017",
     "url": "https://github.com/zhangpeisong/peisongzhang.github.io",
     "summary": "A China-born data science researcher",
     "location": {
@@ -42,10 +41,20 @@
     {
       "institution": "National University of Singapore, Singapore",
       "url": "https://nus.edu.sg/",
+      "area": "Biomedical Engineering",
+      "studyType": "Doctor of Philosophy",
+      "startDate": "2026-01-01",
+      "endDate": "2029-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "National University of Singapore, Singapore",
+      "url": "https://nus.edu.sg/",
       "area": "Precision Health and Medicine",
       "studyType": "Master's Degree",
-      "startDate": "2023-01-15",
-      "endDate": "2025-01-15",
+      "startDate": "2024-01-01",
+      "endDate": "2025-12-31",
       "score": "",
       "courses": [
         "AI and Machine Learning in Precision Medicine"
